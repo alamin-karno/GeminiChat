@@ -1,4 +1,4 @@
-import 'package:gemini_chat/core/constants/app_secret.dart';
+import 'constants.dart';
 
 class AppString {
   static const String geminiAPIBaseUrl =

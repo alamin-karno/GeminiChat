@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:gemini_chat/features/chat/chat.dart';
+import 'package:gemini_chat/features/chat/presentation/state/chat_state.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+
+  runApp(
+    MultiProvider(
+      providers: [ChangeNotifierProvider(create: (_) => ChatState())],
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
