@@ -38,8 +38,11 @@ dependencies:
   http: ^1.2.0
   dash_chat_2: ^0.0.19
   provider: ^6.1.1
+  flutter_native_splash: ^2.3.10
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+
   flutter_test:
     sdk: flutter
 
@@ -49,6 +52,12 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/google.jpg"
+  min_sdk_android: 21
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

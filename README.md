@@ -2,6 +2,8 @@
 
 Welcome to GeminiChat, your gateway to intelligent and engaging conversations! This Flutter app is seamlessly powered by the Google Gemini AI API, offering an immersive chat bot experience.
 
+[<img src="screenshots/banner.jpg">](https://youtu.be/6-HD13vd1PY)
+
 ## Key Features:
 
 - **Smart Conversations:** Engage in intelligent and context-aware chats with Gemini AI.
@@ -21,16 +23,16 @@ Welcome to GeminiChat, your gateway to intelligent and engaging conversations! T
    - Managed state using the `provider` package for a streamlined user experience.
 
 
-## Adding Animation:
-
-- Enhanced user interaction with subtle animations for a visually appealing experience.
-
-## Screenshots:
+## Animation and Screenshots (GIF):
+|                  GeminiChat (GIF)                  |                         Typing...                         |                          Result                           |
+|:--------------------------------------------------:|:---------------------------------------------------------:|:---------------------------------------------------------:|
+| <img src="screenshots/GeminiChat.gif" width="250"> | <img src="screenshots/GeminiChat-Typing.png" width="250"> | <img src="screenshots/GeminiChat-Result.png" width="250"> |
 
 Explore the future of conversations with GeminiChat - where AI meets simplicity!
 
 **Support Me**
 
+- Buy this project on Gumroad [here](https://alaminkarno.gumroad.com/l/gemini-ai-bot)
 - Support me via buy me a coffee. [here](https://www.buymeacoffee.com/alaminkarno)
 
 Note: Ensure the responsible use of Gemini API key and adhere to Google's API usage policies.
