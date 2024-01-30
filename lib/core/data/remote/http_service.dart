@@ -40,7 +40,7 @@ class HttpService extends BaseRemoteRepository {
       headers["Authorization"] = yourGeminiAPIKey;
     }
     headers["Content-Type"] = "application/json";
-    //headers["Accept"] = "application/json";
+    headers["Accept"] = "application/json";
 
     return headers;
   }
